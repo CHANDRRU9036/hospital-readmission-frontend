@@ -1,0 +1,47 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark blue circular frame -->
+  <circle cx="24" cy="24" r="22" stroke="#1e3a8a" stroke-width="2" fill="none"/>
+  
+  <!-- Hospital building structure -->
+  <!-- Central building (tallest) -->
+  <rect x="18" y="8" width="12" height="20" fill="#0d9488" stroke="#ffffff" stroke-width="0.5"/>
+  
+  <!-- Left building section -->
+  <rect x="8" y="12" width="8" height="16" fill="#0d9488" stroke="#ffffff" stroke-width="0.5"/>
+  
+  <!-- Right building section -->
+  <rect x="32" y="12" width="8" height="16" fill="#0d9488" stroke="#ffffff" stroke-width="0.5"/>
+  
+  <!-- Central building windows (2x2 grid) -->
+  <rect x="20" y="12" width="2" height="2" fill="#fbbf24"/>
+  <rect x="24" y="12" width="2" height="2" fill="#fbbf24"/>
+  <rect x="20" y="16" width="2" height="2" fill="#fbbf24"/>
+  <rect x="24" y="16" width="2" height="2" fill="#fbbf24"/>
+  
+  <!-- Circular window at top of central building -->
+  <circle cx="24" cy="10" r="1.5" fill="#60a5fa"/>
+  
+  <!-- Left building windows -->
+  <rect x="10" y="14" width="2" height="2" fill="#fbbf24"/>
+  <rect x="10" y="18" width="2" height="2" fill="#fbbf24"/>
+  
+  <!-- Right building windows -->
+  <rect x="36" y="14" width="2" height="2" fill="#fbbf24"/>
+  <rect x="36" y="18" width="2" height="2" fill="#fbbf24"/>
+  
+  <!-- Red medical cross at base -->
+  <rect x="22" y="24" width="4" height="2" fill="#dc2626"/>
+  <rect x="23" y="23" width="2" height="4" fill="#dc2626"/>
+  
+  <!-- Green laurel wreaths -->
+  <!-- Left wreath -->
+  <path d="M6 20 Q8 16 10 20 Q8 24 6 20" stroke="#16a34a" stroke-width="1.5" fill="none"/>
+  <path d="M6 22 Q8 18 10 22 Q8 26 6 22" stroke="#16a34a" stroke-width="1.5" fill="none"/>
+  
+  <!-- Right wreath -->
+  <path d="M42 20 Q40 16 38 20 Q40 24 42 20" stroke="#16a34a" stroke-width="1.5" fill="none"/>
+  <path d="M42 22 Q40 18 38 22 Q40 26 42 22" stroke="#16a34a" stroke-width="1.5" fill="none"/>
+  
+  <!-- Red banner at bottom -->
+  <rect x="12" y="32" width="24" height="4" fill="#dc2626" rx="1"/>
+</svg>
