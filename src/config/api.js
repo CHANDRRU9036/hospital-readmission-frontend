@@ -1,7 +1,7 @@
 // API Configuration
 const API_CONFIG = {
   development: 'http://localhost:8000',
-  production: 'https://hospital-readmission-api.azurewebsites.net'
+  production: 'https://foresightcare-ehbrhahub9cxf5gk.canadacentral-01.azurewebsites.net'
 };
 
 // Get the current environment
