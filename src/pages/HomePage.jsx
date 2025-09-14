@@ -3,12 +3,12 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import { auth } from '../firebase/config';
 import { toast } from 'sonner';
+import { API_URL } from '../config/api';
 
 export default function HomePage() {
   const [user, loading] = useAuthState(auth);
   const navigate = useNavigate();
   const [status, setStatus] = useState('checking...');
-  import { API_URL } from '../config/api';
 
   useEffect(() => {
     fetch(`${API_URL}/health`).then(r => r.json()).then(d => setStatus(d.status || 'ok')).catch(() => setStatus('down'));
